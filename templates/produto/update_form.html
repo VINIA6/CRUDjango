@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Produto</title>
+</head>
+<body>
+    <form method="post">
+        {% csrf_token %}
+        {{ form }}
+       
+        <input type="submit" value="atualizar">
+
+    </form>
+
+    <br/>
+    <br/>
+
+    <a href="/produto/lista/">Cancelar</a>
+</body>
+</html>

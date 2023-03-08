@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Detail Produto</title>
+</head>
+<body>
+
+    <table>
+        <thead align="center">
+            <tr border: none;>
+                <td><strong>ID</strong> </td>
+                <td><strong>NOME</strong></td>
+                <td><strong>MARCA</strong></td>
+                <td><strong>PREÇO</strong></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{object.id}}</td>
+                <td>{{object.nome}} </td>
+                <td>{{object.marca}}</td>
+                <td>{{object.preco}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <br/>
+    <br/>
+    <a href="/produto/lista/">Lista de produtos</a>
+</body>
+</html>

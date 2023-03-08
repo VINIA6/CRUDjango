@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista Produto</title>
+</head>
+<body>
+    <a href="/produto/novo/">Criar Porduto</a>
+    <br/>
+    <br/>
+<ul>
+    {%  for produto in object_list %}
+       <li> {{ produto }} | <a href="/produto/{{ produto.id }}/atualizar/">Editar</a> |
+                            <a href="/produto/{{ produto.id }}/">Detalhes</a> | 
+                            <a href="/produto/{{ produto.id }}/deletar/">Apagar</a> 
+        </li>
+    {% endfor %}
+</ul>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Produto</title>
+</head>
+<body>
+    <form method="post">
+        {% csrf_token %}
+        {{ form }}
+       
+        <input type="submit" value="Criar">
+
+    </form>
+
+    <br/>
+    <br/>
+
+    <a href="/produto/lista/">Cancelar</a>
+</body>
+</html>
