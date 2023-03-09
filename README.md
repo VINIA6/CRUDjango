@@ -13,3 +13,6 @@ Instalação das dependências:
 Com o ambiente configurado, podemos rodar o projeto:
 
       py manage.py runserver
+
+
+A aplicação consiste em uma experiência de aprendizado com o framework Django, utilizando seus principais recursos de migrations, views e models. A aplicação simula a construção de um software de lista de compras, para aplicarmos o conceito de CRUD (Create, Read, Update, Delete), na ferramenta manipulamos o banco de dados SQLite.
