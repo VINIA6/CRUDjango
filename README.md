@@ -1,6 +1,3 @@
-
-<img src="https://cdn-images-1.medium.com/max/1200/1*nC94XZXcbKJQVF1vhj30nQ.png" height="300" width="1000"  title="FORECAST_DEMAND"/>
-
 Em um cenário de desenvolvimento notamos que teríamos que gerenciar varias versões de pacotes e do próprio Python na maquina, o que poderia rapidamente se transformar em uma grande confusão de versões entre projetos, um verdadeiro caos. Por isso utilizamos o método de criação de um ambiente virtual, veja abaixo os comandos para criar o ambiente virtual e baixar as dependencias do projeto.
 
 Criação de ambiente virtual:
